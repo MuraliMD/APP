@@ -5,7 +5,7 @@ from django.shortcuts import render
 
 # Create your views here.
 def home(request):
-    return render(request,"calculator/form.html")
+    return render(request,"calculator/index.html")
 
 def cal(request):
     sub1=int(request.GET["sub1"])
